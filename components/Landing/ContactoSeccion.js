@@ -30,124 +30,135 @@ export default function Contacto() {
   };
 
   return (
-    <section
-      id="contacto"
-      className="b  bg-slate-900/70 px-7 py-32 text-white flex m-auto w-full h-full"
-    >
-      <div className="flex flex-wrap gap-5">
-        <div className="w-full  sm:w-12/12 md:w-10/12 lg:w-6/12 mx-auto text-White m-auto">
-          <h1 className="text-5xl font-bold  text-white pb-4">
-            Programa tu servicio técnico
-          </h1>
-          <p>
-            No esperes hasta que tus computadores o portátiles dejen de
-            funcionar. Asegura la continuidad de tu negocio. Solicita nuestros
-            servicios expertos de consultoría informática y mantenimiento de
-            computadores.
-          </p>
-          <p>
-            Contáctanos ahora para que podamos asesorarte y darte el mejor
-            servicio con un Precio Especial en este momento.
-          </p>
-          <br />
-          <p>
-            Envianos un correo y te contactaremos para agendar una cita o también
-            puedes comunicarte a nuestros números de celular.
-          </p>
-          <div className="my-4">
-            <p className="text-lg text-white font-bold">Cel. 305 273 8798</p>
-            <p className="text-lg text-white font-bold">Cel. 311 616 8833</p>
-          </div>
-        </div>
-        <div className="w-full sm:w-12/12 md:w-10/12 lg:w-4/12 m-auto">
-          <form className="text-gray-800 bg-white px-3 rounded-md shadow-lg">
-            <div className="form-control mb-4 flex">
-              <label className="label">
-                <span className="label-text text-gray-700 font-semibold ">
-                  Nombre
-                </span>
-              </label>
-              <input
-                onChange={captureValues}
-                name="name"
-                type="text"
-                className="input input-sm border-none font-semibold bg-gray-200 "
-              />
-            </div>
-            <div className="form-control mb-4">
-              <label className="label">
-                <span className="label-text text-gray-700 font-semibold  ">
-                  Email
-                </span>
-              </label>
 
-              <input
-                onChange={captureValues}
-                name="email"
-                type="email"
-                className="input input-sm border-none font-semibold bg-gray-200 "
-              />
-            </div>
-            <div className="form-control mb-4 flex">
-              <label className="label">
-                <span className="label-text text-gray-700 font-semibold">
-                  Tipo de solicitud
-                </span>
-              </label>
-              <select
-                onChange={captureValues}
-                name="solicitud"
-                className="bg-gray-200 select select-bordered select-sm w-full"
-              >
-                <option value="Diagnostico"> Diagnostico</option>
-                <option value="Mantenimiento Preventivo Hardware">
-                  {" "}
-                  Mantenimiento Preventivo Hardware
-                </option>
-                <option value="Mantenimiento Preventivo Software">
-                  {" "}
-                  Mantenimiento Preventivo Software
-                </option>
-                <option value="Reparación"> Reparación</option>
-                <option value="Instalación software">
-                  {" "}
-                  Instalación software
-                </option>
-                <option value="Instalación de Hardware">
-                  {" "}
-                  Instalación de Hardware
-                </option>
-                <option value="Formateo"> Formateo</option>
-                <option value="Instalación Sistemas Operativos">
-                  {" "}
-                  Instalación Sistemas Operativos
-                </option>
-                <option value="Actualización"> Actualización</option>
-              </select>
-            </div>
+<section class="bg-gray-100">
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+      <div class="lg:col-span-2 lg:py-12">
+        <p class="max-w-xl text-lg">
+          At the same time, the fact that we are wholly owned and totally
+          independent from manufacturer and other group control gives you
+          confidence that we will only recommend what is right for you.
+        </p>
 
-            <div className="form-control mb-4">
-              <label className="label">
-                <span className="label-text text-white">Mensaje</span>
-              </label>
+        <div class="mt-8">
+          <a href="" class="text-2xl font-bold text-pink-600">
+            0151 475 4450
+          </a>
 
-              <textarea
-                onChange={captureValues}
-                name="message"
-                className="textarea bordered-none font-semibold bg-gray-200 "
-              ></textarea>
-            </div>
-            <div className="form-control">
-              <button
-                onClick={sendMessage}
-                className="btn  btn-sm border-none rounded-3xl bg-gradient-to-r from-blue-600 to-blue-900 hover:from-blue-500 hover:to-blue-900 text-white   my-4"
-              >
-                Enviar
-              </button>
-            </div>
-          </form>
+          <address class="mt-2 not-italic">
+            282 Kevin Brook, Imogeneborough, CA 58517
+          </address>
         </div>
       </div>
-    </section>
+
+      <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <form action="" class="space-y-4">
+          <div>
+            <label class="sr-only" for="name">Name</label>
+            <input
+              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              placeholder="Name"
+              type="text"
+              id="name"
+            />
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+              <label class="sr-only" for="email">Email</label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Email address"
+                type="email"
+                id="email"
+              />
+            </div>
+
+            <div>
+              <label class="sr-only" for="phone">Phone</label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Phone Number"
+                type="tel"
+                id="phone"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
+            <div>
+              <input class="sr-only" id="option1" type="radio" tabindex="-1" />
+              <label
+                for="option1"
+                class="block w-full rounded-lg border border-gray-200 p-3"
+                tabindex="0"
+              >
+                <span class="text-sm font-medium"> Option 1 </span>
+              </label>
+            </div>
+
+            <div>
+              <input class="sr-only" id="option2" type="radio" tabindex="-1" />
+              <label
+                for="option2"
+                class="block w-full rounded-lg border border-gray-200 p-3"
+                tabindex="0"
+              >
+                <span class="text-sm font-medium"> Option 2 </span>
+              </label>
+            </div>
+
+            <div>
+              <input class="sr-only" id="option3" type="radio" tabindex="-1" />
+              <label
+                for="option3"
+                class="block w-full rounded-lg border border-gray-200 p-3"
+                tabindex="0"
+              >
+                <span class="text-sm font-medium"> Option 3 </span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label class="sr-only" for="message">Message</label>
+            <textarea
+              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              placeholder="Message"
+              rows="8"
+              id="message"
+            ></textarea>
+          </div>
+
+          <div class="mt-4">
+            <button
+              type="submit"
+              class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
+            >
+              <span class="font-medium"> Send Enquiry </span>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ml-3 h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }

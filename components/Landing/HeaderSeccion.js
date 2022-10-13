@@ -1,39 +1,49 @@
-import Image from "next/image";
-import Link from "next/link";
 
 
 export default function Header() {
   return (
-    <section
-      id="header"
-      className="bg-white px-7 pt-32 text-white flex m-auto w-full h-full "
-    >
-      <div className="flex flex-wrap justify-between gap-5 m-auto">
-        <div className="inLeft box1 w-full sm:w-12/12 md:w-10/12 lg:w-4/12 m-auto ">
-          <p className="text-cyan-600 text-lg">Mejora tu productividad</p>
-          <h1 className="qtitle flex text-6xl font-bold pb-3 text-slate-900">
-            Miranda<div className="text-blue-400 font-bold">PC</div>
-          </h1>
-          <p className="text-xl text-slate-900 my-4">
-            Ofrecemos servicios de consultoría informática y mantenimiento de
-            computadores que se adaptan a tus necesidades. Nuestro compromiso
-            contigo es ayudarte a tener tus dispositivos funcionando y que seas
-            100% productivo.
-          </p>
-          <Link href="#about">
-            <a className="btn border-none rounded-3xl bg-gradient-to-r from-blue-600 to-blue-900 hover:from-blue-500 hover:to-blue-900  my-4 text-white">
-              Sobre nosotros
-            </a>
-          </Link>
-     
-        </div>
-        <div className="inRight boxImagen sm:w-12/12 md:w-10/12 lg:w-6/12 m-auto">
+<section id="header"
+  class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"
+>
+  <div
+    class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"
+  ></div>
 
-        </div>
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+  >
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
+        Let us find your
+
+        <strong class="block font-extrabold text-rose-700">
+          Forever Home.
+        </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
+        tenetur fuga ducimus numquam ea!
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="#"
+          class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        >
+          Get Started
+        </a>
+
+        <a
+          href="#"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+        >
+          Learn More
+        </a>
       </div>
+    </div>
+  </div>
+</section>
 
-     
-
-    </section>
   );
 }

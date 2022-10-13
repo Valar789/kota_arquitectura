@@ -2,35 +2,221 @@
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="bg-white px-7 py-32 text-white flex m-auto w-full h-full "
+    <section class="bg-gray-900 text-white">
+  <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="max-w-xl">
+      <h2 class="text-3xl font-bold sm:text-4xl">What makes us special</h2>
+
+      <p class="mt-4 text-gray-300">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
+        sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
+      </p>
+    </div>
+
+    <div
+      class="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
     >
-      <div className="flex flex-wrap text-gray-700 gap-5">
-        <div className="w-full sm:w-12/12 md:w-10/12 lg:w-4/12 m-auto ">
-          <h1 className="text-4xl font-bold text-blue-900  pb-4">
-            Quienes somos
-          </h1>
-          <p className="my-2">
-            Somos una empresa de soporte técnico y mantenimiento de computadores
-            en Miranda cauca. Contamos con una amplia experiencia de más de 10
-            años, que nos permite optimizar los procesos para dar soluciones
-            efectivas y garantizadas a nuestros clientes.
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
           </p>
-          <p className="my-2 font-bold">Misión: </p>
-          <p className="">
-          Nuestra misión siempre será brindar la mejor calidad de servicio en las diferentes etapas del proceso para garantizar la efectividad.
-          </p>
-          <p className="my-2 font-bold">Responsabilidad: </p>
-          <p>
-            Atendemos con prontitud y seriedad cada solicitud de nuestros clientes
-            brindando transparencia y seguridad en lo que hacemos.
-          </p>
-        </div>
-        <div className="w-full sm:w-12/12 md:w-10/12 lg:w-6/12 m-auto">
-       
         </div>
       </div>
-    </section>
+
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start">
+        <span class="flex-shrink-0 rounded-lg bg-gray-800 p-4">
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            ></path>
+          </svg>
+        </span>
+
+        <div class="ml-4">
+          <h2 class="text-lg font-bold">Lorem, ipsum dolor.</h2>
+
+          <p class="mt-1 text-sm text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            cumque tempore est ab possimus quisquam reiciendis tempora animi!
+            Quaerat, saepe?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }
