@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
           <div className="flex text-2xl justify-center text-pink-600  sm:justify-start">
-<Link href=""><a >LocalHost</a></Link>
+<Link href="https://localhostweb.vercel.app/"><a >LocalHost</a></Link> 
           </div>
   
           <p
@@ -18,8 +18,8 @@ export default function Footer() {
   
           <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
             <li>
-              <a
-                href="/"
+         <Link href="/"><a
+                
                 rel="noreferrer"
                 target="_blank"
                 className="text-pink-600 transition hover:text-pink-700 "
@@ -37,12 +37,12 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a></Link>
             </li>
   
             <li>
-              <a
-                href="/"
+         <Link  href="/"><a
+               
                 rel="noreferrer"
                 target="_blank"
                 className="text-pink-600 transition hover:text-pink-700 "
@@ -60,12 +60,12 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a></Link>
             </li>
   
             <li>
-              <a
-                href="/"
+         <Link href="/"><a
+                
                 rel="noreferrer"
                 target="_blank"
                 className="text-pink-600 transition hover:text-pink-700 "
@@ -81,12 +81,12 @@ export default function Footer() {
                     d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
                   />
                 </svg>
-              </a>
+              </a></Link>
             </li>
   
             <li>
-              <a
-                href="/"
+         <Link href="/"><a
+                
                 rel="noreferrer"
                 target="_blank"
                 className="text-pink-600 transition hover:text-pink-700 "
@@ -104,12 +104,12 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a></Link>
             </li>
   
             <li>
-              <a
-                href="/"
+         <Link  href="/"><a
+               
                 rel="noreferrer"
                 target="_blank"
                 className="text-pink-600 transition hover:text-pink-700 "
@@ -127,7 +127,7 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a></Link>
             </li>
           </ul>
         </div>
@@ -141,39 +141,39 @@ export default function Footer() {
             <nav className="mt-8">
               <ul className="space-y-4 text-sm">
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Company History
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Meet the Team
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Employee Handbook
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Careers
-                  </a>
+                  </a></Link>
                 </li>
               </ul>
             </nav>
@@ -185,39 +185,39 @@ export default function Footer() {
             <nav className="mt-8">
               <ul className="space-y-4 text-sm">
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Web Development
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Web Design
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Marketing
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link  href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                   
                   >
                     Google Ads
-                  </a>
+                  </a></Link>
                 </li>
               </ul>
             </nav>
@@ -229,27 +229,27 @@ export default function Footer() {
             <nav className="mt-8">
               <ul className="space-y-4 text-sm">
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     FAQs
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="text-gray-700 transition hover:text-gray-700/75"
-                    href="/"
+                    
                   >
                     Support
-                  </a>
+                  </a></Link>
                 </li>
   
                 <li>
-                  <a
+             <Link href="/"><a
                     className="group flex justify-center gap-1.5 sm:justify-start"
-                    href="/"
+                    
                   >
                     <span
                       className="text-gray-700 transition group-hover:text-gray-700/75"
@@ -265,7 +265,7 @@ export default function Footer() {
                         className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"
                       ></span>
                     </span>
-                  </a>
+                  </a></Link>
                 </li>
               </ul>
             </nav>
@@ -276,9 +276,9 @@ export default function Footer() {
   
             <ul className="mt-8 space-y-4 text-sm">
               <li>
-                <a
+           <Link href="/"><a
                   className="flex items-center justify-center gap-1.5 sm:justify-start"
-                  href="/"
+                  
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -296,13 +296,13 @@ export default function Footer() {
                   </svg>
   
                   <span className="text-gray-700">john@doe.com</span>
-                </a>
+                </a></Link>
               </li>
   
               <li>
-                <a
+           <Link href="/"><a
                   className="flex items-center justify-center gap-1.5 sm:justify-start"
-                  href="/"
+                  
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -320,7 +320,7 @@ export default function Footer() {
                   </svg>
   
                   <span className="text-gray-700">0123456789</span>
-                </a>
+                </a></Link>
               </li>
   
               <li
@@ -346,7 +346,7 @@ export default function Footer() {
                   />
                 </svg>
   
-                <address className="-mt-0.5 not-italic text-gray-700">
+         <address className="-mt-0.5 not-italic text-gray-700">
                   213 Lane, London, United Kingdom
                 </address>
               </li>
@@ -360,21 +360,21 @@ export default function Footer() {
           <p className="text-sm text-gray-500">
             <span className="block sm:inline">All rights reserved.</span>
   
-            <a
+       <Link  href="/"><a
               className="inline-block text-pink-600  underline transition hover:text-pink-600 /75"
-              href="/"
+             
             >
               Terms & Conditions
-            </a>
+            </a></Link>
   
             <span>&middot;</span>
   
-            <a
+       <Link href="/"><a
               className="inline-block text-pink-600  underline transition hover:text-pink-600 /75"
-              href="/"
+              
             >
               Privacy Policy
-            </a>
+            </a></Link>
           </p>
   
           <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">

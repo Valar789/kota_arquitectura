@@ -30,7 +30,7 @@ export default function Header() {
                 Quienes Somos
               </a>
             </Link>
-            <Link href="#servicios">
+            <Link href="#proyectos">
             <a
  
               className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-gray-800 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"

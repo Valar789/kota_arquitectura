@@ -92,10 +92,10 @@ export default function NavBar() {
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
                 <div className="hidden sm:flex">
-                <Link href="#contacto">
+                <Link href="#formContact">
                   <a
                     className="rounded-3xl bg-gradient-to-r sm:from-pink-700 sm:to-pink-600 px-5 py-2.5 text-sm font-medium text-white"
-                    href="/"
+                   
                   >
                     Agendar cita
                   </a>
