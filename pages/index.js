@@ -1,10 +1,10 @@
-import ArrowUp from "components/WhatsApp";
+import ArrowUp from "components/ToUp";
 import About from "components/Landing/AboutSeccion";
 import Servicios from "components/Landing/ServiciosSeccion";
 import Contacto from "components/Landing/ContactoSeccion";
 import Header from "components/Landing/HeaderSeccion";
 import Proyectos from "components/Landing/ProyectosSeccion";
-import Ubicacion from "components/Landing/UbicacionSeccion";
+
 
 import Footer from "components/Footer";
 import NavBar from "components/Navbar";
@@ -18,7 +18,7 @@ export default function Home() {
       <Proyectos />
       <Servicios />
       <Testimonios />
-      <Ubicacion />
+
       <Contacto />
       <About />
       <Footer />
