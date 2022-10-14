@@ -8,7 +8,7 @@ import Proyectos from "components/Landing/ProyectosSeccion";
 
 import Footer from "components/Footer";
 import NavBar from "components/Navbar";
-import Testimonios from "components/Landing/testimonios.";
+import Testimonios from "components/Landing/Testimonios";
 
 export default function Home() {
   return (
