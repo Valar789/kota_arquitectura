@@ -26,14 +26,14 @@ export default function Header() {
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <Link href="#about">
-              <a className="block w-full rounded bg-gradient-to-r sm:from-pink-700 sm:to-pink-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-slate-900 focus:outline-none focus:ring active:bg-stone-500 sm:w-auto">
+              <a className="w-full rounded bg-pink-600 bg-gradient-to-r sm:from-pink-700 sm:to-pink-600 px-12 py-3 text-sm font-medium text-white shadow  focus:ring  sm:w-auto">
                 Quienes Somos
               </a>
             </Link>
             <Link href="#proyectos">
             <a
  
-              className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-gray-800 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+              className="w-full rounded bg-white px-12 py-3 text-sm font-medium text-gray-800 shadow hover:text-rose-700   focus:ring active:text-rose-500 sm:w-auto"
             >
               Proyectos
             </a>
