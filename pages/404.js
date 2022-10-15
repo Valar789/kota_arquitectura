@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function custom404() {
   return (
     <div className="grid h-screen place-content-center bg-white">
@@ -9,13 +11,13 @@ export default function custom404() {
         </h1>
 
         <p className="mt-4 text-gray-500">We can&apost find that page.</p>
-
+        <Link href="/">
         <a
-          href="/"
+          
           className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
         >
           Volver al inicio
-        </a>
+        </a></Link>
       </div>
     </div>
   );
