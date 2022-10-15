@@ -17,6 +17,7 @@ export default function Servicios() {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -45,8 +46,11 @@ export default function Servicios() {
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
             </p>
-          </a>
+          </a></Link>
+ 
 
+
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -75,8 +79,10 @@ export default function Servicios() {
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
             </p>
-          </a>
+          </a></Link>
 
+
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -105,8 +111,11 @@ export default function Servicios() {
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
             </p>
-          </a>
+          </a></Link>
+ 
 
+
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -135,8 +144,10 @@ export default function Servicios() {
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
             </p>
-          </a>
+          </a></Link>
 
+
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -165,8 +176,11 @@ export default function Servicios() {
               possimus adipisci distinctio alias voluptatum blanditiis
               laudantium.
             </p>
-          </a>
+          </a></Link>
+ 
 
+
+        <Link href="#header">
           <a
             className="block bg-white rounded-xl border  p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#header"
@@ -193,7 +207,8 @@ export default function Servicios() {
             <p className="mt-1 text-sm text-gray-700">
               Texto Ejemplo Texto Ejemplo Texto Ejemplo Texto Ejemplo Texto Ejemplo Texto Ejemplo.
             </p>
-          </a>
+          </a></Link>
+
         </div>
 
         <div className="mt-12 text-center">
@@ -218,8 +233,8 @@ export default function Servicios() {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
-          </Link>
+          </a></Link>
+ 
         </div>
       </div>
     </section>
