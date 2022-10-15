@@ -11,10 +11,10 @@ export default function custom404() {
         <p className="mt-4 text-gray-500">We can&apost find that page.</p>
 
         <a
-          href="#"
+          href="/"
           className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
         >
-          Go Back Home
+          Volver al inicio
         </a>
       </div>
     </div>
