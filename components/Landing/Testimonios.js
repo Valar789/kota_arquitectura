@@ -20,13 +20,16 @@ export default function Testimonios() {
 
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
           <div>
-            <Image
-              src={persona1}
-              alt="Woman"
-              className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
-            />
-
+           
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
+            <div><Image
+                src={persona1}
+                alt="Woman"
+                width={96}
+                height={96}
+                className="mx-auto  rounded-full object-cover shadow-xl"
+              />
+            </div>
               <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
               <p className="mt-1 text-xs font-medium text-gray-500">
                 Digital Marketing at Studio
@@ -82,13 +85,17 @@ export default function Testimonios() {
           </div>
 
           <div>
-            <Image
-              src={persona1}
-              alt="Woman"
-              className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
-            />
+
 
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
+            <div><Image
+                src={persona1}
+                alt="Woman"
+                width={96}
+                height={96}
+                className="mx-auto  rounded-full object-cover shadow-xl"
+              />
+            </div>
               <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
               <p className="mt-1 text-xs font-medium text-gray-500">
                 Digital Marketing at Studio
@@ -144,12 +151,17 @@ export default function Testimonios() {
           </div>
 
           <div>
-            <Image
-              src={persona1}
-              alt="Woman"
-              className="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
-            />
+            
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
+            <div className="flex justify-center">
+              <Image
+                src={persona1}
+                alt="Woman"
+                width={96}
+                height={96}
+                className="mx-auto  rounded-full object-cover shadow-xl"
+              />
+            </div>
               <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
               <p className="mt-1 text-xs font-medium text-gray-500">
                 Digital Marketing at Studio
