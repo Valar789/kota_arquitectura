@@ -1,5 +1,7 @@
 import Image from "next/image";
-import persona1 from "public/persona1.avif";
+import santiago from "public/santiago.jpg";
+import carolina from "public/carolina.jpg";
+import martina from "public/martina.jpg";
 
 export default function Testimonios() {
   return (
@@ -11,32 +13,33 @@ export default function Testimonios() {
           </h2>
 
           <p className="text-gring-offset-warm-gray-500 mx-auto mt-4 max-w-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            praesentium natus sapiente commodi. Aliquid sunt tempore iste
-            repellendus explicabo dignissimos placeat, autem harum dolore
-            reprehenderit quis! Quo totam dignissimos earum.
+            Conoce las opiniones de los nuestros clientes mas recurrentes
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
           <div>
-           
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-            <div><Image
-                src={persona1}
-                alt="Woman"
-                width={96}
-                height={96}
-                className="mx-auto  rounded-full object-cover shadow-xl"
-              />
-            </div>
-              <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
+              <div>
+                <Image
+                  src={santiago}
+                  alt="Woman"
+                  width={96}
+                  height={96}
+                  className="mx-auto  rounded-full object-cover shadow-xl"
+                />
+              </div>
+              <p className="text-lg font-bold text-gray-700">
+                Santiago Alvarez
+              </p>
               <p className="mt-1 text-xs font-medium text-gray-500">
-                Digital Marketing at Studio
+                Medico cirujano
               </p>
               <p className="mt-4 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt voluptatem alias ut provident sapiente repellendus.
+                Además de un buen presupuesto ha atendido perfectamente a los
+                constructores hasta la finalización del proyecto, por lo que en
+                el futuro si necesito un buen Arquitecto ya se con quien
+                contar..
               </p>
 
               <div className="mt-8 flex justify-center gap-0.5 text-pink-600 ">
@@ -85,24 +88,22 @@ export default function Testimonios() {
           </div>
 
           <div>
-
-
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-            <div><Image
-                src={persona1}
-                alt="Woman"
-                width={96}
-                height={96}
-                className="mx-auto  rounded-full object-cover shadow-xl"
-              />
-            </div>
-              <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
-              <p className="mt-1 text-xs font-medium text-gray-500">
-                Digital Marketing at Studio
-              </p>
+              <div>
+                <Image
+                  src={carolina}
+                  alt="Woman"
+                  width={96}
+                  height={96}
+                  className="mx-auto  rounded-full object-cover shadow-xl"
+                />
+              </div>
+              <p className="text-lg font-bold text-gray-700">Carolina Viera</p>
+              <p className="mt-1 text-xs font-medium text-gray-500">Pediatra</p>
               <p className="mt-4 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt voluptatem alias ut provident sapiente repellendus.
+                Apesar del agunos contratiempos climaticos, respondieton con mucha profesionalidad y muy
+                predispuestos. Nos han hecho el proyecto de una remodelacion de nuestra sala 
+                entre medianeras en Palmira, con mucho estilo.
               </p>
 
               <div className="mt-8 flex justify-center gap-0.5 text-pink-600 ">
@@ -151,24 +152,25 @@ export default function Testimonios() {
           </div>
 
           <div>
-            
             <blockquote className="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-            <div className="flex justify-center">
-              <Image
-                src={persona1}
-                alt="Woman"
-                width={96}
-                height={96}
-                className="mx-auto  rounded-full object-cover shadow-xl"
-              />
-            </div>
-              <p className="text-lg font-bold text-gray-700">Sophie Lennon</p>
+              <div className="flex justify-center">
+                <Image
+                  src={martina}
+                  alt="Woman"
+                  width={96}
+                  height={96}
+                  className="mx-auto  rounded-full object-cover shadow-xl"
+                />
+              </div>
+              <p className="text-lg font-bold text-gray-700">Martina Cordoba</p>
               <p className="mt-1 text-xs font-medium text-gray-500">
-                Digital Marketing at Studio
+                Gerente Control de Calidad
               </p>
               <p className="mt-4 text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt voluptatem alias ut provident sapiente repellendus.
+                Buenos profesionales. El trato ha sido excelente en todo
+                momento. Buena comunicación, serios, flexibles y con capacidad
+                de solución ante contratiempos que puedan surgir. Repetiría y
+                recomiendo sin dudas.
               </p>
 
               <div className="mt-8 flex justify-center gap-0.5 text-pink-600 ">

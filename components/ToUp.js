@@ -5,9 +5,10 @@ import { useEffect, useRef } from "react";
 
 export default function ToUp() {
   const up = useRef();
-  const header = document.getElementById('header')
+
 
   useEffect(() => {
+    const header = document.getElementById('header')
     const handleScroll = () => {
       const { y } = header.getBoundingClientRect();
       console.log(y);
