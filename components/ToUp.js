@@ -11,7 +11,7 @@ export default function ToUp() {
     const header = document.getElementById('header')
     const handleScroll = () => {
       const { y } = header.getBoundingClientRect();
-      console.log(y);
+
 
       y >= 0
         ? up.current.classList.add("hiddenUp")
