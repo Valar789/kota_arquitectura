@@ -25,7 +25,7 @@ export default function NavBar() {
       ref={refnav}
       className="sticky top-0 z-50 bg-white/75 md:bg-transparent sm:bg-gradient-to-r sm:from-white/75 sm:to-transparent"
     >
-      <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-7 lg:px-2 ">
         <div className="relative flex items-center justify-between">
           <Link href="#header">
             <a className="block text-black font-bold text-2xl pt-2">
@@ -72,7 +72,7 @@ export default function NavBar() {
             </li>
             <li>
               <Link href="#contacto">
-                <a className="btn md:bg-gradient-to-r sm:from-pink-700 sm:to-pink-600 p-2 rounded-3xl text-white transition hover:text-pink-600 ">
+                <a className="  md:bg-gradient-to-r sm:from-pink-700 sm:to-pink-600 py-2 px-4 rounded-lg  text-white transition hover:text-pink-600 ">
                   Agendar cita
                 </a>
               </Link>
@@ -168,7 +168,7 @@ export default function NavBar() {
                       </li>
                       <li>
                         <Link href="#contacto">
-                          <a className="btn text-gray-800 transition hover:text-pink-600 ">
+                          <a className="btn text-gray-800  transition hover:text-pink-600 ">
                             Agendar cita
                           </a>
                         </Link>
